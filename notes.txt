@@ -1,0 +1,290 @@
+** Everything in Python is Object **
+** Every object contains methods ***
+
+number
+--------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+baval = 34.43
+
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """scala programming"""
+
+
+[["Ram",30,"11-11-2000","M"],["Rita",30,"11-11-2000","F"]]
+
+[("Ram",30,"11-11-2000","M"),("Rita",30,"11-11-2000","F"),()]
+
+
+list
+-----
+list: contains set of elements
+elments can be set of numbers or strings or any comb
+list elements are defined in []
+
+
+tuple  ( immutable)
+-----
+tuple contains set of elements.
+Elements can be set of numbers or strings or any combination
+*** Elements inside tuple cannot be modified directly ***
+
+
+dictionary ( hashing , associative array - in perl   , map)
+----------
+dictionary contains elements in key:value pairs
+keys are used to uniquely identify the values.
+keys are generally either number or string which is used to uniquely identify the values.
+values can be number or string or list of tuple or dictionary OR dict of dictionaries or any complex datastructure.
+
+syntax :   object =  {key:value , key:value , key:value ..... }
+            book  =  {"chap1":10 ,"chap2":20 , "chap3": 30 ,"chap1":1000}
+          numbers =  {1:2,3:4,5:6}
+            bookinfo  =  {"chap1":[10,"Rita","UK"] ,"chap2":[20,"Rao","US"] }
+
+
+
+
+set
+-----
+set is UNORDERED collection of unique values of the same type.
+set is defined in {}.
+
+
+
+
+
+
+
+In the console
+--------------
+
+dir(__builtin__)
+
+print()
+help()
+dir()
+range()
+len()
+type()
+isinstance()
+input()
+id()
+max()
+min()
+sum()
+
+
+
+int()
+str()
+float()
+oct()
+hex()
+list()
+tuple()
+dict()
+set()
+
+
+
+
+
+
+
+
+
+
+file handling
+---------------
+
+
+working with flat files  ( csv dat conf prop log ... )
+------------------------------------------------------------
+
+opening the file
+----------------
+
+syntax:    object = open(filename,mode)
+example:     fobj = open("customers.txt","r")
+             fobj = open("customers.txt","w")
+             fobj = open("customers.txt","a")
+
+
+
+closing the file
+----------------
+fobj.close()
+
+
+
+
+
+
+there are 2 types of errors
+
+
+1. syntax error
+2. semantic error or logical error
+
+
+handling the exceptions in the runtime is known as exception handling.
+
+
+try
+
+
+except
+
+
+else
+
+finally
+
+
+raise
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+working with third party files ( pdf docx xlsx tar.gz  .zip .... )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+single line comment
+# this is the commented line
+
+
+multi line comment
+'''
+these lines
+are commented
+lines
+
+'''
+
+
+
+
+
+
+
+
+
+
+level1
+level1
+level1
+level1
+if cond :
+    level2
+    level2
+    level2
+    level2
+else:
+    level2
+    level2
+    level2
+level1
+level1
+level1
+
+    
+
+
+
+classification of objects
+--------------------------
+
+mutable objects ( changable objects )
+--------------------------------
+list
+dictionary
+set
+
+immutable objects ( unchangable , uneditable )
+----------------------------------------------
+number
+string
+tuple
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
