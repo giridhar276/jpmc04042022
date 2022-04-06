@@ -262,6 +262,163 @@ tuple
 
 
 
+There are 2 types of libraries
+
+1. builtin libraries
+---------------------
+these libraries are installed with python tool and builtin libraries are generally used(math operations , OS level operations , mailing, ftp operations , string operations , date and time opreations) by everyone.
+
+
+2. third party libraries
+
+
+
+
+
+
+builtin libraries which are generally used
+----------------------------------------
+sys           : system python config information
+urllib.request: working with http
+math          : mathematical operations
+random        : random numbers
+calendar
+smtplib       : sending mails
+ftplib        : ftp'ng the file
+telnetlib     :
+logging       : logging all the events
+shutil        : copy,move,rmtree ....
+filecmp       : comparing directories
+zipfile       : create/extract the zip files
+rarfile       : create/extract the tar files
+tarfile       : create/extract the tarfiles
+getpass       : shadowing the password
+json          : reading/writing json files
+csv           : reading/writing csv files
+xml        
+sysconfig     : system configuration
+collections   : working with dictionaries
+argparse      : passing args from command line
+optparse      : passing args from command line
+time          : working with date and time
+datetime      : working with date and time
+cryptography  : encrypting and decrypting the passwords
+heapq         : performing array operations
+gzip          : reading gunzip files
+re            : validating the strings
+ipadresss     : validting ip address
+platform      : display platform information
+pathlib       : creating temp files
+threading     : for performing multi threading
+multiprocessing:
+subprocess    : invoking the system commands ( linux or dos commands)
+
+
+
+frequently used third party libraries
+---------------------------------------
+database related
+----------------
+pymysql   :
+cx_Oracle
+pymongo
+pymssql
+
+web frameworks ( developing web applications)
+--------------
+django
+flask
+bottom
+
+analytics/machine learning
+---------------------------
+numpy
+scipy
+pandas
+seaborn
+plotly
+ggplot
+matplotlib   : visualizing data .. bar graph.. pie graph
+scikit-learn :  machine learning algorithms
+
+image processing
+---------------
+pillow
+opencv
+pytorch
+
+
+APIs ( REST API)
+-----
+requests
+
+excel programming
+------------------
+openpyxl    : reading/write excel files
+xlsxwriter  : writing to excel file
+python-docx : working with ms-word
+pandas
+
+networking
+-----------
+paramiko   :  interacting with remote servers
+netmiko    :  connecting to router/switch
+pyping     :  ping any host or ip address
+
+
+
+procedural programming ( C ) ( top down approach ) 
+
+
+object oriented programming  - principles
+-----------------------------------------
+- common across all the object oriented languages.
+
+- class object
+- encapsulation
+- Inheritance
+- polymorphism
+  -> function overloading
+  -> operator overloading
+
+
+
+
+class
+------
+Class is like blueprint of the house.
+Every class contains data members and member functions.
+
+
+object
+-------
+instance of the class.
+
+
+self
+----
+self is the instance of the object
+self will be first parameter in the class methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
